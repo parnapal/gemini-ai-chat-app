@@ -1,0 +1,79 @@
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+To install all react packages run the cmd:-
+
+npm.cmd create vite@latest client
+
+> cd client
+client> code .  // opens the folder in vs code
+
+Now install tailwindcss
+client> npm.cmd install tailwindcss @tailwindcss/vite
+
+
+> cd server
+server> npm init -y
+server> npm install
+server> npm i express
+server> npm i cors
+server> npm i @google/generative-ai      /* connect gemini & get the response */
+server> npm install --save-dev nodemon
+server> npm install dotenv
+
+server> npm start
+
+
+create new api key:-
+https://aistudio.google.com/api-keys
+
+check available models:-
+https://generativelanguage.googleapis.com/v1beta/models?key=API_KEY
+
+------------------------------------------------------------------------------------
+
+client> npm i axios
+client> npm install react-markdown // always give string
+client> npm run dev
+
+====================================================================================
+
+chatapp> git init
+chatapp> git remote add origin https://github.com/parnapal/gemini-ai-chat-app.git
+chatapp> git remote set-url origin https://github.com/parnapal/gemini-ai-chat-app.git
+chatapp> git add .
+
+chatapp> git commit -m "Initial commit: Gemini AI chat app"
+chatapp> git branch -M main
+git remote -v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
